@@ -6,7 +6,7 @@ export async function sendMessageToBackend(payload) {
     console.log(`📦 Sending payload to backend — size: ${sizeMB} MB`);
     console.log("🧾 Payload preview:", payload);
 
-    const response = await fetch("http://localhost:5001/api/chat", {
+    const response = await fetch("https://emberlink.onrender.com/api/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
