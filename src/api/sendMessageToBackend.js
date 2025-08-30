@@ -6,7 +6,7 @@ export async function sendMessageToBackend(payload) {
     console.log(`📦 Sending payload to backend — size: ${sizeMB} MB`);
     console.log("🧾 Payload preview:", payload);
 
-    const response = await fetch("https://emberlink.onrender.com/api/chat", {
+    const response = await fetch(`${import.meta.env.VITE_API_BASE}/chat`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
