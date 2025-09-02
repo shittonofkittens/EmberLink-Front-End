@@ -1,0 +1,14 @@
+# Ignore Python environment and secrets
+__pycache__/
+*.pyc
+backend/.env
+
+# Node stuff
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Logs and build artifacts
+*.log
+*.DS_Store
+.env
