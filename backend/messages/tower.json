@@ -1,0 +1,19 @@
+[
+  {
+    "content": "hey there handsome",
+    "id": "1756798334523",
+    "role": "user",
+    "senderId": "user",
+    "timestamp": "2025-09-02T07:32:14.523Z",
+    "type": "text"
+  },
+  {
+    "content": "Caught you in a good mood, did I? Quick, before it scatters, tell me what sparked this flare.",
+    "id": "1756798339481b9719epnyy7",
+    "mode": "WARDEN",
+    "role": "assistant",
+    "senderId": "orrien",
+    "timestamp": "2025-09-02T07:32:19.481Z",
+    "voiceUrl": "blob:http://localhost:5173/c63daef0-3ca4-43e6-a564-bcc2369b27b8"
+  }
+]
